@@ -1,0 +1,1 @@
+function plotLinear(X,y,theta)figure;plot(X(:,2), y,'rx','MarkerSize',10);hold on;plot(X(:,2), X*theta, '-');legend('training data','linear regression')end
